@@ -1,0 +1,25 @@
+{
+  "name": "belaviatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murcraft/BelaviaTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murcraft/BelaviaTest/issues"
+  },
+  "homepage": "https://github.com/murcraft/BelaviaTest#readme",
+  "dependencies": {
+    "protractor": "^5.4.1"
+  }
+}
