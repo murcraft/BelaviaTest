@@ -8,10 +8,11 @@ exports.config = {
   framework: 'jasmine',
 
   capabilities: {
-    browserName: 'firefox',
+    browserName: 'chrome',
   },
 
   onPrepare: () => {
+    browser.manage().window().setSize(1024, 800),
     browser.waitForAngularEnabled(false)
   },
 
